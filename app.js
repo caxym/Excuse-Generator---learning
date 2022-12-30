@@ -7,10 +7,10 @@ window.onload = () => {
 
 function generateExcuse() {
 
-    let pronombre = ['mi', 'su', 'yo'];
-    let sujeto = ['gato', 'perro', 'arbol', 'auto', 'movil'];
-    let action = ['luz', 'apagar', 'robaron', 'comieron', 'arrojaron'];
-    let donde = ['casa', 'calle', 'jardin', 'cama'];
+    let pronombre = ['mi', 'la', 'un'];
+    let sujeto = ['internet', 'luz', 'arbol', 'gato', 'carro'];
+    let action = ['se'];
+    let donde = ['murio', 'fue', 'cayó', 'durmió','comió','varó'];
 
     let pronombreIndex = Math.floor(Math.random() * pronombre.length);
     let sujetoIndex = Math.floor(Math.random() * sujeto.length);
